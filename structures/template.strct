@@ -1,0 +1,7 @@
+directory(
+another_subdir(
+$FILE(
+index.htm
+)
+)
+)
