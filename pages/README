@@ -1,0 +1,11 @@
+Add content here.
+
+Currently, gen.sh looks for *.htm in this directory, then restructures these files into what is described in the chosen .strct.
+
+Example:
+Upon running './gen.sh default', the following files and directories will be created:
+out/
+    people/
+        template/
+            index.html
+            
