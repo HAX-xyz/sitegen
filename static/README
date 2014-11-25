@@ -1,0 +1,12 @@
+This directory contains 'static'-files, as in, the actual template to use for generation.
+The template is a single .html, 'static.html'.
+
+Also of note is that all non-html-files will be copied to out/static/ to allow for css and other assets.
+
+static.html will be used as the skeleton for generation; excepting "<!content>" which will be replaced with the actual content, fetched from the page being processed.
+
+To better explain this, a simple static.html looks like:
+
+<!content>
+
+which means that the entire page will consist of only the content, as defined in pages/*.htm.
