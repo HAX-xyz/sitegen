@@ -3,7 +3,7 @@ The template is a single .html, 'static.html'.
 
 Also of note is that all non-html-files will be copied to out/static/ to allow for css and other assets.
 
-static.html will be used as the skeleton for generation; excepting "<!content>" which will be replaced with the actual content, fetched from the page being processed.
+static.html will be used as the skeleton for generation; excepting "<!content>" which will be replaced with the actual content, fetched from the page being processed and $PAGE, which will be replaced with the name of the file in pages/, sans .htm
 
 To better explain this, a simple static.html looks like:
 
