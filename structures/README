@@ -3,4 +3,7 @@ A .strct-file consists of lines corresponding to directories and files.
 A directory is denoted by a opening parenthesis as a suffix, i.e. 'this_is_a_directory('
 Directories can be nested.
 A file is just a simple line, for instance 'index.html'
+To "close" a directory, as in, move the working directory up one level, put a single closing parenthesis on a line.
 .strct-files also support one case of string substitution; $FILE will be replaced by the filename (without suffix).
+
+For a full, working, example, look at template.strct or default.strct in this directory.
